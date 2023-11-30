@@ -39,7 +39,7 @@ public class ChestCrafterCommand implements CommandHandler {
 		int customId = 0;
 		try {
 			// Check that it is an id
-			Integer.parseInt(args.get(0));
+			customId = Integer.parseInt(args.get(0));
 		} catch (Exception e) {
 			CommandHandler.sendMessage(targetPlayer,
 					"Invalid id! Please make sure you're putting either rare, gift, or a chest id from the GM Handbook.");
