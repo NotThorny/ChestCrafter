@@ -1,0 +1,13 @@
+{
+  "name": "ChestCrafter",
+  "description": "Make chests",
+  "version": "0.1.0-dev",
+  "authors": [ "NotThorny" ],
+  "api": 2,
+  
+  "mainClass": "thorny.grasscutters.ChestCrafter.ChestCrafter",
+  
+  "comments": [
+    "Don't bug test this because it will break"
+  ]
+}
