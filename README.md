@@ -6,6 +6,8 @@ You can find chest ids in the GM Handbook, look for SceneObj_Chest.
 
 Fair Warning!! Many chests do not have proper handlers and won't open! Please feel free to experiment, but know that any chests that don't open are not an issue with the plugin!
 
+![20231130153855](https://github.com/NotThorny/ChestCrafter/assets/107363768/41afc6a4-a129-42af-b3d4-54f1fbafb953)
+
 ## Installation
 
 Get latest release from [releases](https://github.com/NotThorny/ChestCrafter/releases)
