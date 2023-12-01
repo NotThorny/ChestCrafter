@@ -6,6 +6,8 @@ You can find chest ids in the GM Handbook, look for SceneObj_Chest.
 
 Fair Warning!! Many chests do not have proper handlers and won't open! Please feel free to experiment, but know that any chests that don't open are not an issue with the plugin!
 
+Any chests without a handler can be added by you to the reward file, and then it will open with your own custom rewards you have set. Refer to [Custom Chest Rewards](https://github.com/NotThorny/ChestCrafter#custom-chest-rewards) further down this README for more information.
+
 ![20231130153855](https://github.com/NotThorny/ChestCrafter/assets/107363768/41afc6a4-a129-42af-b3d4-54f1fbafb953)
 
 ## Installation
@@ -29,6 +31,12 @@ All chests will spawn where you stand and in the direction you are facing.
 `/ch <chest id>`
 
 - Spawns the given chest id
+
+## Custom Chest Rewards
+
+You can add custom chest rewards for any chest, including ones that currently don't open (they should open after!) by editing your `ChestReward.json` in `\Grasscutter\data\`.
+
+There will already by content in there you can use as reference for adding new chests. The basics are that any given chest uses it's object name (ie. SceneObj_Chest_Default_Lv1) and then what is contained inside it is split into a few categories such as advExp, mora, and content which is any drop items it contains.
 
 ## Version
 
